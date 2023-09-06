@@ -30,14 +30,14 @@ return <div>
             marginTop: 50
         }}
         >
-        <Paper elevation={3}>
+        <Paper elevation={5}>
         <Typography variant="h5" component="div">
-            {post.title}
+            {post.title} - {post.postId}
             </Typography>
             <Paper elevation={1}>
-        { <Typography variant="h6" component="div">
+         {<Typography variant="h6" component="div">
             {post.postText}
-            </Typography> }
+            </Typography>} 
             
     </Paper>
     </Paper>
